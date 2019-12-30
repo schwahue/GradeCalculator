@@ -17,7 +17,7 @@ class Grade:
 
     def get_score(self):
         self.x = int(input("Enter your score: "))
-        self.y = int(input("Enter your total score: "))
+        self.y = int(input("Enter the test total score: "))
         self.z = int(input("Enter the test percentage: "))
         self.score = (self.x / self.y) * 100
 
