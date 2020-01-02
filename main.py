@@ -25,13 +25,13 @@ class Grade:
         self.total_score = (self.score * self.z) / 100
 
     def get_grade(self):
-        if self.score > 80:
+        if self.score > 79:
             self.grade = "A"
-        elif self.score > 70:
+        elif self.score > 69:
             self.grade = "B"
-        elif self.score > 60:
+        elif self.score > 59:
             self.grade = "C"
-        elif self.score > 50:
+        elif self.score > 49:
             self.grade = "D"
         else:
             self.grade = "F"
